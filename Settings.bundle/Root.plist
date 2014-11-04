@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>10.0.1.200</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>ip_address_preference</string>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>Title</key>
+			<string>IP Address</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>DefaultValue</key>
+			<string>9750</string>
+			<key>Title</key>
+			<string>Serial Port</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>Key</key>
+			<string>serial_port_preference</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>3054</string>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Title</key>
+			<string>AP Command Port</string>
+			<key>Key</key>
+			<string>ap_port_preference</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+				<string>9</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+				<string>9</string>
+			</array>
+			<key>Title</key>
+			<string>Load Retries</string>
+			<key>Key</key>
+			<string>load_retry_preference</string>
+			<key>DefaultValue</key>
+			<string>2</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

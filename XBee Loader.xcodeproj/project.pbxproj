@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270C388D19008CC6005033D4 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C388C19008CC6005033D4 /* Common.m */; };
+		27131EFA18FDDBED000664E4 /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27131EF918FDDBED000664E4 /* ConfigurationViewController.m */; };
+		2727118B18FED6FE00613C41 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2727118A18FED6FE00613C41 /* ProgressView.m */; };
+		27420E7518A9504E00DD3175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27420E7418A9504E00DD3175 /* Foundation.framework */; };
+		27420E7718A9504E00DD3175 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27420E7618A9504E00DD3175 /* CoreGraphics.framework */; };
+		27420E7918A9504E00DD3175 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27420E7818A9504E00DD3175 /* UIKit.framework */; };
+		27420E7F18A9504E00DD3175 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27420E7D18A9504E00DD3175 /* InfoPlist.strings */; };
+		27420E8118A9504E00DD3175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27420E8018A9504E00DD3175 /* main.m */; };
+		27420E8518A9504E00DD3175 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27420E8418A9504E00DD3175 /* AppDelegate.m */; };
+		27420E8818A9504E00DD3175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27420E8618A9504E00DD3175 /* Main.storyboard */; };
+		27420E8B18A9504E00DD3175 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27420E8A18A9504E00DD3175 /* MainViewController.m */; };
+		27420E8D18A9504E00DD3175 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27420E8C18A9504E00DD3175 /* Images.xcassets */; };
+		27420E9418A9504E00DD3175 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27420E9318A9504E00DD3175 /* XCTest.framework */; };
+		27420E9518A9504E00DD3175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27420E7418A9504E00DD3175 /* Foundation.framework */; };
+		27420E9618A9504E00DD3175 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27420E7818A9504E00DD3175 /* UIKit.framework */; };
+		27420E9E18A9504E00DD3175 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27420E9C18A9504E00DD3175 /* InfoPlist.strings */; };
+		27420EA018A9504E00DD3175 /* XBee_LoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27420E9F18A9504E00DD3175 /* XBee_LoaderTests.m */; };
+		27420EAC18A9510B00DD3175 /* eyecandy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27420EAA18A9510B00DD3175 /* eyecandy.png */; };
+		27420EAD18A9510B00DD3175 /* eyecandy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27420EAB18A9510B00DD3175 /* eyecandy@2x.png */; };
+		27582CE5197D96F600D77AB8 /* TXBee.m in Sources */ = {isa = PBXBuildFile; fileRef = 27582CE4197D96F600D77AB8 /* TXBee.m */; };
+		277C34DB18B573A1002FC0D3 /* LargeSpinCode.binary in Resources */ = {isa = PBXBuildFile; fileRef = 277C34D818B56E2B002FC0D3 /* LargeSpinCode.binary */; };
+		277C34DC18B573A1002FC0D3 /* ClockDemo.binary in Resources */ = {isa = PBXBuildFile; fileRef = 277C34D918B56E2B002FC0D3 /* ClockDemo.binary */; };
+		277C34DD18B573A2002FC0D3 /* Float-Blink_Demo.binary in Resources */ = {isa = PBXBuildFile; fileRef = 277C34DA18B56E2B002FC0D3 /* Float-Blink_Demo.binary */; };
+		27813ABA18D398A000705BA0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 27813AB918D398A000705BA0 /* Settings.bundle */; };
+		279C734C18AED507003F83F8 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C734B18AED507003F83F8 /* GCDAsyncUdpSocket.m */; };
+		27BAF04619759533009A53BA /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BAF04519759533009A53BA /* Loader.m */; };
+		27C6AC401980266100936F13 /* UDPDataBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C6AC3F1980266100936F13 /* UDPDataBuffer.m */; };
+		27D5CEC618D0FEEB00C961F6 /* NetworkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D5CEC518D0FEEB00C961F6 /* NetworkTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27420E9718A9504E00DD3175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27420E6918A9504E00DD3175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27420E7018A9504E00DD3175;
+			remoteInfo = "XBee Loader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270C388B19008CC6005033D4 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		270C388C19008CC6005033D4 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		27131EF818FDDBED000664E4 /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
+		27131EF918FDDBED000664E4 /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationViewController.m; sourceTree = "<group>"; };
+		2727118918FED6FE00613C41 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		2727118A18FED6FE00613C41 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		27420E7118A9504E00DD3175 /* XBee Loader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XBee Loader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27420E7418A9504E00DD3175 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27420E7618A9504E00DD3175 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27420E7818A9504E00DD3175 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27420E7C18A9504E00DD3175 /* XBee Loader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XBee Loader-Info.plist"; sourceTree = "<group>"; };
+		27420E7E18A9504E00DD3175 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27420E8018A9504E00DD3175 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27420E8218A9504E00DD3175 /* XBee Loader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XBee Loader-Prefix.pch"; sourceTree = "<group>"; };
+		27420E8318A9504E00DD3175 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27420E8418A9504E00DD3175 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27420E8718A9504E00DD3175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27420E8918A9504E00DD3175 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		27420E8A18A9504E00DD3175 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		27420E8C18A9504E00DD3175 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27420E9218A9504E00DD3175 /* XBee LoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XBee LoaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27420E9318A9504E00DD3175 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27420E9B18A9504E00DD3175 /* XBee LoaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XBee LoaderTests-Info.plist"; sourceTree = "<group>"; };
+		27420E9D18A9504E00DD3175 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27420E9F18A9504E00DD3175 /* XBee_LoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBee_LoaderTests.m; sourceTree = "<group>"; };
+		27420EAA18A9510B00DD3175 /* eyecandy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyecandy.png; path = Art/eyecandy.png; sourceTree = SOURCE_ROOT; };
+		27420EAB18A9510B00DD3175 /* eyecandy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eyecandy@2x.png"; path = "Art/eyecandy@2x.png"; sourceTree = SOURCE_ROOT; };
+		27582CE3197D96F600D77AB8 /* TXBee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXBee.h; sourceTree = "<group>"; };
+		27582CE4197D96F600D77AB8 /* TXBee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXBee.m; sourceTree = "<group>"; };
+		277C34D818B56E2B002FC0D3 /* LargeSpinCode.binary */ = {isa = PBXFileReference; lastKnownFileType = file; name = LargeSpinCode.binary; path = "../../XBee WiFi/Download-Demos/LargeSpinCode.binary"; sourceTree = "<group>"; };
+		277C34D918B56E2B002FC0D3 /* ClockDemo.binary */ = {isa = PBXFileReference; lastKnownFileType = file; name = ClockDemo.binary; path = "../../XBee WiFi/Download-Demos/ClockDemo.binary"; sourceTree = "<group>"; };
+		277C34DA18B56E2B002FC0D3 /* Float-Blink_Demo.binary */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Float-Blink_Demo.binary"; path = "../../XBee WiFi/Download-Demos/Float-Blink_Demo.binary"; sourceTree = "<group>"; };
+		27813AB918D398A000705BA0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		279C734A18AED507003F83F8 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = UDP/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		279C734B18AED507003F83F8 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = UDP/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		27BAF04419759533009A53BA /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
+		27BAF04519759533009A53BA /* Loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loader.m; sourceTree = "<group>"; };
+		27C6AC3E1980266100936F13 /* UDPDataBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPDataBuffer.h; sourceTree = "<group>"; };
+		27C6AC3F1980266100936F13 /* UDPDataBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPDataBuffer.m; sourceTree = "<group>"; };
+		27D5CEC418D0FEEB00C961F6 /* NetworkTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTestViewController.h; sourceTree = "<group>"; };
+		27D5CEC518D0FEEB00C961F6 /* NetworkTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27420E6E18A9504E00DD3175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27420E7718A9504E00DD3175 /* CoreGraphics.framework in Frameworks */,
+				27420E7918A9504E00DD3175 /* UIKit.framework in Frameworks */,
+				27420E7518A9504E00DD3175 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27420E8F18A9504E00DD3175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27420E9418A9504E00DD3175 /* XCTest.framework in Frameworks */,
+				27420E9618A9504E00DD3175 /* UIKit.framework in Frameworks */,
+				27420E9518A9504E00DD3175 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27420E6818A9504E00DD3175 = {
+			isa = PBXGroup;
+			children = (
+				27813AB918D398A000705BA0 /* Settings.bundle */,
+				27420E7A18A9504E00DD3175 /* XBee Loader */,
+				27420E9918A9504E00DD3175 /* XBee LoaderTests */,
+				27420E7318A9504E00DD3175 /* Frameworks */,
+				27420E7218A9504E00DD3175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27420E7218A9504E00DD3175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27420E7118A9504E00DD3175 /* XBee Loader.app */,
+				27420E9218A9504E00DD3175 /* XBee LoaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27420E7318A9504E00DD3175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27420E7418A9504E00DD3175 /* Foundation.framework */,
+				27420E7618A9504E00DD3175 /* CoreGraphics.framework */,
+				27420E7818A9504E00DD3175 /* UIKit.framework */,
+				27420E9318A9504E00DD3175 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27420E7A18A9504E00DD3175 /* XBee Loader */ = {
+			isa = PBXGroup;
+			children = (
+				279C734618AED4B5003F83F8 /* UDP */,
+				27420E8318A9504E00DD3175 /* AppDelegate.h */,
+				27420E8418A9504E00DD3175 /* AppDelegate.m */,
+				27131EF818FDDBED000664E4 /* ConfigurationViewController.h */,
+				27131EF918FDDBED000664E4 /* ConfigurationViewController.m */,
+				270C388B19008CC6005033D4 /* Common.h */,
+				270C388C19008CC6005033D4 /* Common.m */,
+				27BAF04419759533009A53BA /* Loader.h */,
+				27BAF04519759533009A53BA /* Loader.m */,
+				27420E8618A9504E00DD3175 /* Main.storyboard */,
+				27420E8918A9504E00DD3175 /* MainViewController.h */,
+				27420E8A18A9504E00DD3175 /* MainViewController.m */,
+				27D5CEC418D0FEEB00C961F6 /* NetworkTestViewController.h */,
+				27D5CEC518D0FEEB00C961F6 /* NetworkTestViewController.m */,
+				2727118918FED6FE00613C41 /* ProgressView.h */,
+				2727118A18FED6FE00613C41 /* ProgressView.m */,
+				27582CE3197D96F600D77AB8 /* TXBee.h */,
+				27582CE4197D96F600D77AB8 /* TXBee.m */,
+				27C6AC3E1980266100936F13 /* UDPDataBuffer.h */,
+				27C6AC3F1980266100936F13 /* UDPDataBuffer.m */,
+				27420E8C18A9504E00DD3175 /* Images.xcassets */,
+				27420E7B18A9504E00DD3175 /* Supporting Files */,
+			);
+			path = "XBee Loader";
+			sourceTree = "<group>";
+		};
+		27420E7B18A9504E00DD3175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				277C34D718B56DE1002FC0D3 /* Binaries */,
+				27420EA918A9510400DD3175 /* Art */,
+				27420E7C18A9504E00DD3175 /* XBee Loader-Info.plist */,
+				27420E7D18A9504E00DD3175 /* InfoPlist.strings */,
+				27420E8018A9504E00DD3175 /* main.m */,
+				27420E8218A9504E00DD3175 /* XBee Loader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27420E9918A9504E00DD3175 /* XBee LoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				27420E9F18A9504E00DD3175 /* XBee_LoaderTests.m */,
+				27420E9A18A9504E00DD3175 /* Supporting Files */,
+			);
+			path = "XBee LoaderTests";
+			sourceTree = "<group>";
+		};
+		27420E9A18A9504E00DD3175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27420E9B18A9504E00DD3175 /* XBee LoaderTests-Info.plist */,
+				27420E9C18A9504E00DD3175 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27420EA918A9510400DD3175 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				27420EAA18A9510B00DD3175 /* eyecandy.png */,
+				27420EAB18A9510B00DD3175 /* eyecandy@2x.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		277C34D718B56DE1002FC0D3 /* Binaries */ = {
+			isa = PBXGroup;
+			children = (
+				277C34D818B56E2B002FC0D3 /* LargeSpinCode.binary */,
+				277C34D918B56E2B002FC0D3 /* ClockDemo.binary */,
+				277C34DA18B56E2B002FC0D3 /* Float-Blink_Demo.binary */,
+			);
+			name = Binaries;
+			sourceTree = "<group>";
+		};
+		279C734618AED4B5003F83F8 /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				279C734A18AED507003F83F8 /* GCDAsyncUdpSocket.h */,
+				279C734B18AED507003F83F8 /* GCDAsyncUdpSocket.m */,
+			);
+			name = UDP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27420E7018A9504E00DD3175 /* XBee Loader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27420EA318A9504E00DD3175 /* Build configuration list for PBXNativeTarget "XBee Loader" */;
+			buildPhases = (
+				27420E6D18A9504E00DD3175 /* Sources */,
+				27420E6E18A9504E00DD3175 /* Frameworks */,
+				27420E6F18A9504E00DD3175 /* Resources */,
+				27F81B7119ABF5E2005D3E9C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XBee Loader";
+			productName = "XBee Loader";
+			productReference = 27420E7118A9504E00DD3175 /* XBee Loader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27420E9118A9504E00DD3175 /* XBee LoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27420EA618A9504E00DD3175 /* Build configuration list for PBXNativeTarget "XBee LoaderTests" */;
+			buildPhases = (
+				27420E8E18A9504E00DD3175 /* Sources */,
+				27420E8F18A9504E00DD3175 /* Frameworks */,
+				27420E9018A9504E00DD3175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27420E9818A9504E00DD3175 /* PBXTargetDependency */,
+			);
+			name = "XBee LoaderTests";
+			productName = "XBee LoaderTests";
+			productReference = 27420E9218A9504E00DD3175 /* XBee LoaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27420E6918A9504E00DD3175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Parallax;
+				TargetAttributes = {
+					27420E9118A9504E00DD3175 = {
+						TestTargetID = 27420E7018A9504E00DD3175;
+					};
+				};
+			};
+			buildConfigurationList = 27420E6C18A9504E00DD3175 /* Build configuration list for PBXProject "XBee Loader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27420E6818A9504E00DD3175;
+			productRefGroup = 27420E7218A9504E00DD3175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27420E7018A9504E00DD3175 /* XBee Loader */,
+				27420E9118A9504E00DD3175 /* XBee LoaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27420E6F18A9504E00DD3175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277C34DB18B573A1002FC0D3 /* LargeSpinCode.binary in Resources */,
+				277C34DC18B573A1002FC0D3 /* ClockDemo.binary in Resources */,
+				277C34DD18B573A2002FC0D3 /* Float-Blink_Demo.binary in Resources */,
+				27420E8D18A9504E00DD3175 /* Images.xcassets in Resources */,
+				27420EAD18A9510B00DD3175 /* eyecandy@2x.png in Resources */,
+				27420EAC18A9510B00DD3175 /* eyecandy.png in Resources */,
+				27420E7F18A9504E00DD3175 /* InfoPlist.strings in Resources */,
+				27813ABA18D398A000705BA0 /* Settings.bundle in Resources */,
+				27420E8818A9504E00DD3175 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27420E9018A9504E00DD3175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27420E9E18A9504E00DD3175 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F81B7119ABF5E2005D3E9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.mm\" -or -name \"*.c\" \\) -print0 | \\\nxargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | \\\nperl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27420E6D18A9504E00DD3175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27582CE5197D96F600D77AB8 /* TXBee.m in Sources */,
+				279C734C18AED507003F83F8 /* GCDAsyncUdpSocket.m in Sources */,
+				2727118B18FED6FE00613C41 /* ProgressView.m in Sources */,
+				27D5CEC618D0FEEB00C961F6 /* NetworkTestViewController.m in Sources */,
+				27420E8B18A9504E00DD3175 /* MainViewController.m in Sources */,
+				27131EFA18FDDBED000664E4 /* ConfigurationViewController.m in Sources */,
+				27420E8518A9504E00DD3175 /* AppDelegate.m in Sources */,
+				27C6AC401980266100936F13 /* UDPDataBuffer.m in Sources */,
+				270C388D19008CC6005033D4 /* Common.m in Sources */,
+				27BAF04619759533009A53BA /* Loader.m in Sources */,
+				27420E8118A9504E00DD3175 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27420E8E18A9504E00DD3175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27420EA018A9504E00DD3175 /* XBee_LoaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27420E9818A9504E00DD3175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27420E7018A9504E00DD3175 /* XBee Loader */;
+			targetProxy = 27420E9718A9504E00DD3175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27420E7D18A9504E00DD3175 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27420E7E18A9504E00DD3175 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27420E8618A9504E00DD3175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27420E8718A9504E00DD3175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27420E9C18A9504E00DD3175 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27420E9D18A9504E00DD3175 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27420EA118A9504E00DD3175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27420EA218A9504E00DD3175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27420EA418A9504E00DD3175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mike Westerfield (436W7W733E)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XBee Loader/XBee Loader-Prefix.pch";
+				INFOPLIST_FILE = "XBee Loader/XBee Loader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27420EA518A9504E00DD3175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Byte Works, Inc. (5Q69V99M59)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XBee Loader/XBee Loader-Prefix.pch";
+				INFOPLIST_FILE = "XBee Loader/XBee Loader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27420EA718A9504E00DD3175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XBee Loader.app/XBee Loader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XBee Loader/XBee Loader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XBee LoaderTests/XBee LoaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27420EA818A9504E00DD3175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XBee Loader.app/XBee Loader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XBee Loader/XBee Loader-Prefix.pch";
+				INFOPLIST_FILE = "XBee LoaderTests/XBee LoaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27420E6C18A9504E00DD3175 /* Build configuration list for PBXProject "XBee Loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27420EA118A9504E00DD3175 /* Debug */,
+				27420EA218A9504E00DD3175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27420EA318A9504E00DD3175 /* Build configuration list for PBXNativeTarget "XBee Loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27420EA418A9504E00DD3175 /* Debug */,
+				27420EA518A9504E00DD3175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27420EA618A9504E00DD3175 /* Build configuration list for PBXNativeTarget "XBee LoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27420EA718A9504E00DD3175 /* Debug */,
+				27420EA818A9504E00DD3175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27420E6918A9504E00DD3175 /* Project object */;
+}
